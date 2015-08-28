@@ -1,0 +1,23 @@
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\bin\Debug\MikroTikFinal.exe
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\bin\Debug\MikroTikFinal.pdb
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.Form1.resources
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.Properties.Resources.resources
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.exe
+c:\users\aleksandar\documents\visual studio 2010\Projects\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.pdb
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.exe
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.Form1.resources
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.Properties.Resources.resources
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\bin\Debug\MikroTikFinal.exe
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\bin\Debug\MikroTikFinal.pdb
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.pdb
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\bin\Debug\Interop.WMPLib.dll
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\aleksandar\Desktop\MikroTikFinal\MikroTikFinal\obj\x86\Debug\MikroTikFinal.csproj.ResolveComReference.cache

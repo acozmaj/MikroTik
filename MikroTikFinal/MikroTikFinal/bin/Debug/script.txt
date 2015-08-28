@@ -1,0 +1,34 @@
+/interface pppoe-client add user="$1" password="$2" add-default-route=yes disabled=no interface=wlan1
+/system identity set name="edited from outside"
+/ip dns static add name=primary-dns address=87.250.97.250
+/ip dns static add name=secondary-dns address=87.250.98.250
+/ip pool add name=pool1 ranges=192.168.88.1-192.168.88.254
+/ip dhcp-server add name=dhcp_server interface=ether1 lease-time=3d address-pool=pool1 disabled=no
+/ip dhcp-server network add address=192.168.88.0/24 gateway=192.168.88.1 dns-server=87.250.97.250,208.67.222.222
+/ip firewall nat add chain=srcnat out-interface=pppoe-out1 action=masquerade
+/user group add name=support policy="ftp,reboot,read,write,test,winbox,web,!local,!telnet,!ssh,!policy,!password" 
+/user group add name=radius
+/user group add name=acozmaj
+/user remove backup
+/user add address=0.0.0.0/0 comment="aaaaaaaaa" disabled=no group=full name="backup" password=#
+/user add address=0.0.0.0/0 comment="ccccc" disabled=no group=full name="acozmaj" password=acozmaj
+/user add address=91.191.0.0/23 comment="bbbbb" disabled=no group=support name="support" password=s11u22pp33ort
+/user remove admin
+/user remove client
+/user remove dasto
+/system ntp client set enabled=yes mode=unicast primary-ntp=62.48.35.100 secondary-ntp=193.65.58.58
+/system logging action set memory memory-lines=100 memory-stop-on-full=no name=memory target=memory
+/system logging action set disk disk-lines=100 disk-stop-on-full=no name=disk target=disk
+/system logging action set echo name=echo remember=yes target=echo
+/system logging action set remote name=remote remote=0.0.0.0:514 target=remote
+/ip service set www address=0.0.0.0/0 disabled=no port=8888
+/user aaa set accounting=yes default-group=radius interim-update=30m use-radius=yes
+/radius add accounting-backup=no accounting-port=1813 address=91.191.0.66 authentication-port=1812 called-id="" comment="" disabled=no realm="" secret=Z0naS3cur3 service=login timeout=3s
+/radius incoming set accept=yes port=1700
+/snmp community set public address=91.191.0.0/23
+/ip neighbor discovery
+print
+/ip neighbor discovery set 1 discover=yes
+/ip dns set allow-remote-requests=no
+
+

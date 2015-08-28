@@ -1,0 +1,9 @@
+/ip address add address=192.168.88.1/24 interface=ether1
+/ip accounting set enabled=no
+/ip dns set allow-remote-requests=no
+/ip neighbor discovery set [find] discover=yes
+/system ntp client set enabled=yes mode=unicast primary-ntp=91.191.19.21
+/interface wireless set 0 country=ireland band=5ghz-a/n wireless-protocol=any
+/interface wireless set 0 ht-txchains=0,1 ht-rxchains=0,1 disabled=no channel-width=20mhz frequency-mode=superchannel
+/interface wireless set 0 scan-list=5180,5200,5220,5240,5260,5280,5300,5320,5500,5520,5540,5560,5580,5600,5620,5640,5660,5680,5700,5745,5765,5785,5805,5825,5845,5865
+/
